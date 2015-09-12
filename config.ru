@@ -15,8 +15,8 @@ use Rack::Session::Cookie, :key => 'rack.session',
 
 
 
-#DB = Sequel.connect(ENV['DATABASE_URL'] || 'postgres://db/main.db')
-DB = Sequel.connect(:adapter => 'postgres', :user => 'username', :password => "passw0rd", :host => "xxx.xxx.xxx.xxx" , :database => "//db/main.db")
+DB = Sequel.connect(ENV['DATABASE_URL'] || 'postgres://db/main.db')
+#DB = Sequel.connect(:adapter => 'postgres', :user => 'username', :password => "passw0rd", :host => "xxx.xxx.xxx.xxx" , :database => "//db/main.db")
 
 require './models.rb'
 
