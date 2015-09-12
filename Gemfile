@@ -5,9 +5,9 @@ gem 'rake'
 gem 'rack'
 
 
-gem 'sqlite3'
+#gem 'sqlite3'
 
 gem 'sequel'
-#gem 'pg'
+gem 'pg'
 gem 'bcrypt'
 gem "passenger"
