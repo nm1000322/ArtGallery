@@ -1,0 +1,14 @@
+
+.title{
+  text-align:center;
+  color:navy;
+  font-size: 72px;
+  font-family:'Roboto', sans-serif;
+  font-weight: 100;
+}
+.search{
+  text-align: center;
+}
+iframe{
+  width:100%;
+}
